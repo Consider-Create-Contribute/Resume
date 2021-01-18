@@ -1,0 +1,113 @@
+body
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    font-size: 1.7vw;
+    color:rgb(255, 255, 255);
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255, 215, 0) none;
+    scrollbar-arrow-color: rgb(255, 215, 0);
+}
+@media only screen and (max-width: 500px) 
+{
+    body p, h1 
+    {
+        font-size:3vw;
+    }
+}
+body ::-webkit-scrollbar{width: 6px;}
+body ::-webkit-scrollbar-track{background: none;}
+body ::-webkit-scrollbar-thumb{background-color: rgb(255, 215, 0); border-radius: 30px; border: 2px solid rgb(255, 255, 255);}
+h1
+{
+    height: fit-content;
+    max-width: 90vw;
+    background-color:rgb(30, 144, 255); 
+    font-size: 200%;
+    text-align: center;
+    border: 1vw;
+    border-radius: 10px;
+    color:rgb(255, 215, 0);
+    -webkit-text-fill-color:rgb(255, 215, 0);
+    -webkit-text-stroke-color:rgb(0, 0, 128);
+    -webkit-text-stroke-width: 0.1vw;
+}
+h2
+{
+    text-align: left;
+    padding-left: 2%;
+    font-size: 130%;
+}
+ul
+{
+    height:fit-content;
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    white-space: nowrap;
+    overflow: visible;
+    padding-inline-start: 0px;
+    margin-bottom: 15px;
+}
+ul li
+{
+    display:flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: 180%;
+}
+ul li:hover
+{
+    font-weight: bold;
+    color:rgb(255, 215, 0);
+    font-size: 200%;
+    transition-delay: 100ms;
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+    transition-property: font-size;
+    transition-duration: 400ms;
+}
+ul li i
+{
+    letter-spacing: 1vw;
+}
+#subscript
+{
+    font-size: 60%; 
+    text-align: center;
+}
+#Education
+{
+    display: inline;
+}
+.Ed_Titles
+{
+    display:inline;
+    text-align: left;
+}
+.Education_body
+{
+    clear:both;
+    padding-left: 5%;
+    font-size: 100%;
+}
+.Education_body:hover
+{
+    transition-delay: 100ms;
+    transition-property: color;
+    transition-duration: 200ms;
+    color: rgb(255, 215, 0);
+}
+.date
+{
+    display: inline;
+    float: right;
+    font-weight: bold;
+    padding-right: 5%;
+}
